@@ -1,6 +1,6 @@
 // Change these two lines to your own details
 const EMAIL = "you@example.com";
-const HANDLE = "@yourhandle";
+const HANDLE = "@yourdiscord";
 
 // Duplicate the marquee images so the loop is seamless
 const track = document.querySelector(".track");
@@ -26,10 +26,9 @@ document.getElementById("brief").addEventListener("submit", e => {
   const body = [
     "Channel: " + d.channel,
     "Contact: " + d.contact,
-    "Needs: " + d.type,
     "Upload date: " + (d.when || "not set"),
     "",
     d.idea || ""
   ].join("\n");
-  location.href = "mailto:" + EMAIL + "?subject=" + encodeURIComponent("New brief: " + d.type) + "&body=" + encodeURIComponent(body);
+  location.href = "mailto:" + EMAIL + "?subject=" + encodeURIComponent("New thumbnail brief") + "&body=" + encodeURIComponent(body);
 });
