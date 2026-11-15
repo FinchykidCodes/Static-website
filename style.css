@@ -101,3 +101,5 @@ input,select,textarea{font:400 1rem Figtree,sans-serif;padding:.65rem .8rem;bord
   .rates article:last-child{border-bottom:0}
 }
 @media(prefers-reduced-motion:reduce){.track{animation:none}html{scroll-behavior:auto}}
+.client:not(:empty)::before{content:", "}
+.client:not(:empty)::after{content:" subscribers"}
