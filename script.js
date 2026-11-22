@@ -1,6 +1,6 @@
 // Change these two lines to your own details
 const EMAIL = "you@example.com";
-const HANDLE = "@yourdiscord";
+const HANDLE = "@finchykid_mc";
 
 // Duplicate the marquee images so the loop is seamless
 const track = document.querySelector(".track");
